@@ -1,7 +1,7 @@
 @echo off
 color b
 title TempCleaner
-echo Cleanign temp...
+echo Cleaning temp...
 timeout 3 /nobreak >nul
 del C:\Windows\Temp\* /f /s /q
 del %temp%\* /f /s /q
